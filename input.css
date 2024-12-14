@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+    /* color root start  */
+    --primare_50: #eff9ff;
+    --primare_100: #def1ff;
+    --primare_200: #b6e6ff;
+    --primare_300: #75d4ff;
+    --primare_400: #2cbeff;
+    --primare_500: #00a4f4;
+    --primare_600: #0084d4;
+    --primare_700: #0069ab;
+    --primare_800: #00598d;
+    --primare_900: #064a74;
+    --primare_950: #042f4d;
+
+
+    --Neutrals_50: #f6f6f6;
+    --Neutrals_100: #e7e7e7;
+    --Neutrals_200: #d1d1d1;
+    --Neutrals_300: #b0b0b0;
+    --Neutrals_400: #888888;
+    --Neutrals_500: #6d6d6d;
+    --Neutrals_600: #5d5d5d;
+    --Neutrals_700: #4f4f4f;
+    --Neutrals_800: #454545;
+    --Neutrals_900: #3d3d3d;
+    --Neutrals_950: #000000;
+    /* color root over  */
+
+    /* gradiant root start  */
+    --button__gradient: linear-gradient(to right ,#A7E2FF 0%,#0095DE 100%);
+    --text__gradient1: linear-gradient(to right ,#0179B4 0%,#88D8FF 95%);
+    --text__gradient2: linear-gradient(to right ,#88D8FF 9%,#0179B4 100%);
+    --text__gradient3: linear-gradient(to right ,#88D8FF 12%,#0179B4 100%);
+    --text__gradient4: linear-gradient(to right ,#0179B4 14%,#88D8FF 95%);
+    --text__gradient5: linear-gradient(to right ,#88D8FF 1%,#0179B4 100%);
+    --box__gradient1: linear-gradient(to bottom right ,#EBF8FF 2%,#FDFEFF 50%);
+    --box__gradient2: radial-gradient(#35BDFF 38%,#008CD0 100%);
+    --box__gradient3: radial-gradient(#FFFFFF 34%,#EEF9FF 98%);
+    --box__gradient4: radial-gradient(#FFFFFF 33%,#F8FDFF 98%);
+    --box__gradient5: radial-gradient(farthest-corner at 60px 60px,#FFFFFF 44%,#CEEFFF 98%);
+    --box__gradient6: linear-gradient(to right,#EBF8FF 2%,#FDFEFF 50%);
+    --border_color: linear-gradient(to bottom right ,#A0E0FF 23%,#32BDFF 100%);
+    --border_color2: linear-gradient(to bottom right ,#95DDFF 0%,#C5ECFF 100%);
+    --border_color3: linear-gradient(to bottom right ,#C5ECFF 0%,#95DDFF 100%);
+    --border_color4: linear-gradient(to bottom right ,#C0EAFF 0%,#4EC6FF 100%);
+    --border_color5: linear-gradient(to bottom right ,#4EC6FF 0%,#C0EAFF 100%);
+    --hero__gradient: linear-gradient(to bottom,#00A4F4 0%,#C2EBFF 100%);
+    /* gradiant root over  */
+    /* font root start  */
+    --fs_12: 0.75rem;
+    --fs_14: 0.87rem;
+    --fs_16: 1rem;
+    --fs_20: 1.25rem;
+    --fs_24: 1.5rem;
+    --fs_32: 2rem;
+    --fs_40: 2.5rem;
+    --fs_46: 2.87rem;
+    --fs_48: 3rem;
+    /* font root over  */
+    /* shadow root start  */
+    --shadow__1: -8px 8px 28px hsl(0, 0%, 0%, 6%);
+    --shadow__2: 3.12px 9.37px 21.85px hsl(0, 0%, 0%, 6%);
+    /* shadow root over  */
+
+}
+
+
